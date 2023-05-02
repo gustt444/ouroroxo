@@ -1,0 +1,91 @@
+.container {
+  gap: 1rem;
+  justify-content: center;
+  height: 100vh;
+}
+
+main,
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  padding: 1rem;
+  gap: 1rem;
+  border: 1px solid #931896;
+  border-radius: 1rem;
+  max-width: 350px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.301);
+}
+
+.img-logo {
+  height: 120px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.719));
+}
+
+.input {
+  border: 1.5px solid #931896;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-size: 1.2rem;
+  margin-top: 0.3rem;
+  width: 100%;
+  transition: 300ms;
+}
+
+.input:focus {
+  background: #c0c0c0;
+  filter: drop-shadow(0px 4px 4px #941896a2);
+}
+
+.btn-recupera-senha {
+  display: block; 
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: 200ms;
+}
+
+.btn:hover {
+  background: #721174;
+}
+
+.btn-submit {
+  background: #931896;
+  color: #ecc6ed;
+}
+
+.btn-social {
+  background: #d9d9d9;
+  border: 1.5px solid #931896;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+
+.link {
+  color: #931896;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.img-btn {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.footer-form {
+  margin: 0.5rem 0;
+}
